@@ -11,8 +11,9 @@
     display: flex;
     padding: 20px;
     justify-content: space-around;
-    background-color: #9b9898;
+    background-color: #8f8c8c;
     color: white;
+   
 
 }
 
@@ -40,14 +41,17 @@
 }
 
 /* Banner Part css */
-
 .banner-container {
     width: 100%;
     height: 100vh;
-    background-image: url("./asset/image/background.jpg"),
+    /* overlay part */
+    /* background-image: url("./asset/image/background.jpg"), */
+        /* linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)); */
+        background-image: url("./asset/image/background.jpg"),
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
     background-blend-mode: overlay;
     display: flex;
+    margin-bottom: 10px;
 }
 
 .banner-details {
@@ -102,6 +106,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .service-btn {
@@ -209,8 +214,9 @@ body {
     margin: auto;
     justify-content: center;
     align-items: center;
-    margin-top: -50px;
+    margin-top: -70px;
     border-radius: 25px;
+    margin-bottom: 25px;
 }
 .appointment-description{
     width: 50%;
